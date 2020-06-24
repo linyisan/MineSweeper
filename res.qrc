@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/blocks.bmp</file>
+        <file>res/board.bmp</file>
+        <file>res/bomb.wav</file>
+        <file>res/boomblast.bmp</file>
+        <file>res/click.wav</file>
+        <file>res/ele10.bmp</file>
+        <file>res/faces.bmp</file>
+        <file>res/flagerror.bmp</file>
+        <file>res/low.png</file>
+        <file>res/Mine.ico</file>
+        <file>res/number.bmp</file>
+        <file>res/openzero.wav</file>
+    </qresource>
+</RCC>

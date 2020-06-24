@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>490</width>
+    <height>392</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>490</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuGame">
+    <property name="title">
+     <string>game</string>
+    </property>
+    <addaction name="actionReStart"/>
+    <addaction name="actionPrimary"/>
+    <addaction name="actionInternediate"/>
+    <addaction name="actionHigh"/>
+    <addaction name="actionUser_Define"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>about</string>
+    </property>
+    <addaction name="actionHow_to_play"/>
+   </widget>
+   <addaction name="menuGame"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <action name="actionReStart">
+   <property name="text">
+    <string>重新开始</string>
+   </property>
+  </action>
+  <action name="actionPrimary">
+   <property name="text">
+    <string>初级</string>
+   </property>
+  </action>
+  <action name="actionInternediate">
+   <property name="text">
+    <string>中级</string>
+   </property>
+  </action>
+  <action name="actionHigh">
+   <property name="text">
+    <string>高级</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actionUser_Define">
+   <property name="text">
+    <string>自定义</string>
+   </property>
+  </action>
+  <action name="actionHow_to_play">
+   <property name="text">
+    <string>怎么玩</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
